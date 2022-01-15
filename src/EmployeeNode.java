@@ -7,8 +7,10 @@ public class EmployeeNode<Employee> {
         this.nextEmployeeNode = null;
     }
 
-    public EmployeeNode(){
-        this.employee = null;
-        this.nextEmployeeNode = null;
+    public Employee getEmployee() {
+        return employee;
     }
 }
+
+
+
